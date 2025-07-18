@@ -1,0 +1,76 @@
+{
+    "url":"https://api.open-meteo.com/v1/forecast",
+    "openMeteoParams":{
+        "latitude": 51.0501,
+        "longitude": -114.0853,
+        "daily": [
+            "temperature_2m_max", 
+            "temperature_2m_min", 
+            "apparent_temperature_max", 
+            "apparent_temperature_min", 
+            "rain_sum", 
+            "showers_sum", 
+            "snowfall_sum", 
+            "precipitation_sum", 
+            "precipitation_hours", 
+            "precipitation_probability_max", 
+            "wind_speed_10m_max", 
+            "wind_gusts_10m_max"
+        ],
+        "current": [
+            "temperature_2m", 
+            "apparent_temperature", 
+            "precipitation", 
+            "rain", 
+            "showers", 
+            "snowfall", 
+            "wind_speed_10m", 
+            "wind_gusts_10m"
+        ],
+        "timezone": "America/Denver",
+        "forecast_days": 3
+    },
+    "rawParams": {
+        "latitude": 51.0501,
+        "longitude": -114.0853,
+        "daily": [
+            "temperature_2m_max",
+            "temperature_2m_min",
+            "apparent_temperature_max",
+            "apparent_temperature_min",
+            "rain_sum",
+            "showers_sum",
+            "snowfall_sum",
+            "precipitation_sum",
+            "precipitation_hours",
+            "precipitation_probability_max",
+            "wind_speed_10m_max",
+            "wind_gusts_10m_max"
+        ],
+        "current": [
+            "temperature_2m",
+            "apparent_temperature",
+            "precipitation",
+            "rain",
+            "showers",
+            "snowfall",
+            "wind_speed_10m",
+            "wind_gusts_10m"
+        ],
+        "timezone": "America/Denver",
+        "forecast_days": 3
+    },
+    "testParam":"This is test data",
+    "maxTempthreshold":"",
+    "minTempthreshold":"",
+    "maxWindThreshold":"",
+    "maxWindGust":"",
+    "carriers": {
+        "telus": "@msg.telus.com"
+    },
+    "email":"krt.ambrose@gmail.com",
+    "password":"epsc fdar stzn skon",
+    "server":"smtp.gmail.com",
+    "port":587,
+    "phone":5878972117        
+}

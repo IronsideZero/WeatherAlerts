@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+  "name": "Weather Alerts Dev",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  //where to open the editor. Note that /app will NOT contain the code
+  "workspaceFolder": "/app",
+  "mounts": [
+    //supposedly mounts the current working directory to the /app directory, but this isn't happening for some reason
+    "source=${localWorkspaceFolder},target=/app,type=bind"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
